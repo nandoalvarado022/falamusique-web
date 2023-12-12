@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.flex {
+  display: flex;
+}
+
+.guitar {
+  height: fit-content;
+  margin-top: 60px;
+}
+
+section.main_content {
+  background-image: url(https://falamusique.com/wp-content/uploads/2022/09/fondo-indicadores.jpg);
+  background-position: center;
+  height: 100vh;
+  .bg {
+    background-color: #000000d9;
+    padding: 80px 60px 40px 0;
+    height: 100%;
+  }
+}
+
+.bg_guitar {
+  background-image: url(https://falamusique.com/wp-content/uploads/2022/09/fondo-indicadores.jpg);
+}
+
+.text1 {
+  color: #aa6314;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  span {
+    color: rgb(255 255 255);
+    text-shadow: 1px 1px #aa6314;
+  }
+}
+
+.text2 {
+  color: #c9d0cc;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  span{
+    display: block;
+    font-size: 12px;
+    margin-top: 8px;
+    text-decoration: underline;;
+  }
+}
+
+.large-description {
+  color: #c9d0cc;
+  font-size: 14px;
+  margin-top: 15px;
+  td {
+    vertical-align: top;
+    &.icon {
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.buttons {
+  .primary {
+    align-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #9c5f38;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 8px;
+    position: relative;
+    text-align: left;
+    width: 180px;
+    &:after {
+      background: #aa6314;
+      content: "";
+      height: calc(100% + 4px);
+      position: absolute;
+      right: -2px;
+      top: -2px;
+      width: 40px;
+    }
+    img {
+      z-index: 1;
+    }
+  }
+}
