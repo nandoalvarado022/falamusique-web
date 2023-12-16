@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.flex {
+  display: flex;
+}
+
+.instrument {
+  position: absolute;
+}
+
+// .bg_guitar {
+//   background-image: url(https://falamusique.com/wp-content/uploads/2022/09/fondo-indicadores.jpg);
+// }
+
+.text1 {
+  color: #aa6314;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  span {
+    color: rgb(255 255 255);
+    text-shadow: 1px 1px #aa6314;
+  }
+}
+
+.text2 {
+  color: #c9d0cc;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+  span {
+    display: block;
+    font-size: 12px;
+    margin-top: 8px;
+    text-decoration: underline;
+  }
+}
+
+.text3 {
+  @extend .text2;
+  margin-top: 20px;
+}
+
+.large-description {
+  color: #c9d0cc;
+  font-size: 14px;
+  margin-top: 15px;
+  td {
+    vertical-align: top;
+    &.icon {
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}

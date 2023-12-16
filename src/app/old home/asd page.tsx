@@ -6,6 +6,10 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className={styles.main}>
+      <div className="logo_content">
+        Bienvenido a &nbsp;&nbsp;
+        <img src="/assets/images/logo.png" width={200} />
+      </div>
       <Summary />
     </main>
   )

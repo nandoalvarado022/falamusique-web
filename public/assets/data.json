@@ -1,0 +1,28 @@
+[
+    {
+        "document": 1,
+        "name": "Pedro",
+        "instrumentName": "Piano",
+        "image": "/assets/images/piano.png",
+        "instrumentImageBG": "https://www.superprof.co/blog/wp-content/uploads/2021/10/las-partes-del-piano-980x653.jpeg",
+        "packageName": "Clases Personalizadas Piano Nivel II",
+        "styles": {
+            "right": "-40px",
+            "top": "50px",
+            "marginTop": "60px"
+        }
+    },
+    {
+        "document": 2,
+        "name": "Sergio",
+        "instrumentName": "Guitarra",
+        "image": "/assets/images/guitar.webp",
+        "instrumentImageBG": "https://falamusique.com/wp-content/uploads/2022/09/fondo-indicadores.jpg",
+        "packageName": "Clases Grupales Guitarra Nivel I",
+        "styles": {
+            "right": "-40px",
+            "top": "50px",
+            "marginTop": "60px"
+        }
+    }
+]

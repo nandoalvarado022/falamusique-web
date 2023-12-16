@@ -1,0 +1,16 @@
+.card {
+    // background: #ffffff85;
+    border-radius: 20px;
+    margin: 20px 20px 0;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+        text-align: center;
+        width: 100%;
+    }
+}
